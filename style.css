@@ -1,0 +1,92 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+ body {
+    background-color: whitesmoke;
+    width: 100%;
+ }
+ nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    padding: 10px;
+    background-color: white;
+ }
+nav ul li {
+    display: inline;
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.233);
+    font-size: 15px;
+    font-weight: 500;
+}
+li {
+    margin-left: 50px;
+    text-transform: uppercase;
+}
+.design {
+    text-transform: uppercase;
+}
+.agency {
+    font-weight: lighter;
+    text-transform: uppercase;
+}
+.content {
+    text-align: center;
+    margin-top: 100px;
+}
+.p-end {
+    align-items: center;
+    text-align: center;
+    margin: 1rem;
+}
+.flex-container{
+    margin-top: 200px;
+    background-color:rgba(0, 128, 0, 0.63);
+    width: 600px;
+    height: 150px;
+    padding: 20px;
+}
+.flex-icon {
+    width: 100px;
+    height: 200px;
+    background-color: rgba(0, 128, 0, 0.63);
+    margin-top: 200px;
+    color: white;
+    text-align: center;
+    left: 100px;
+}
+.tag {
+    position: absolute;
+    margin-top: 80px;
+    left: 1220px;
+}
+.flex {
+    display: flex;
+    justify-content:space-between ;
+}
+.flex-text {
+    color:whitesmoke;
+    line-height: 2;
+}
+.h-text {
+    text-transform: uppercase;
+    color: whitesmoke;
+}
+.container {
+    background-image: url('/heart-of-philadelphia-centr.jpg');
+    width: 100%;
+    height: 500px;   
+}
+.bend {
+    color: white;
+    border: none;
+    background-color: rgba(0, 128, 0, 0.603);
+    width: 80px;
+}
+
